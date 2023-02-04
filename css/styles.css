@@ -454,8 +454,10 @@ button {
   margin-top: 72px;
 }
 .card-link {
-  position: relative;
   display: block;
+}
+.card-link-img {
+  position: relative;
 }
 .overlay {
   color: var(--overlay-text);
@@ -463,6 +465,8 @@ button {
   position: absolute;
   left: 0;
   top: 0;
+  width: 100%;
+  height: 100%;
 }
 
 /*-------sectiom-many-ikon------*/
