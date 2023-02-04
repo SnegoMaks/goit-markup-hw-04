@@ -27,9 +27,13 @@
   --customers-logo: #8e8f99;
   --customers-logo2: #404bbf;
   /*footer*/
+
   --footer-text: #e7e9fc;
   --footer-soc-text: #ffffff;
   --footer-logo-hover: #31d0aa;
+  /*---overlay----*/
+  --overlay-text: #f4f4fd;
+  --overlay-bgr: #4d5ae5;
   /*size distaition*/
 }
 /*border-box-main*/
@@ -138,9 +142,14 @@ button {
   color: var(--head-adres);
   line-height: 1.5;
 }
+.navi-first-li {
+  position: relative;
+}
 .navi-first-li.current::after {
   content: "";
   display: block;
+  position: absolute;
+  bottom: 0;
   width: 100%;
   height: 6px;
   background-color: var(--link);
@@ -443,6 +452,17 @@ button {
   row-gap: 48px;
   column-gap: 24px;
   margin-top: 72px;
+}
+.card-link {
+  position: relative;
+  display: block;
+}
+.overlay {
+  color: var(--overlay-text);
+  background-color: var(--overlay-bgr);
+  position: absolute;
+  left: 0;
+  top: 0;
 }
 
 /*-------sectiom-many-ikon------*/
