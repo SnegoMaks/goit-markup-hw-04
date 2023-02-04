@@ -111,6 +111,7 @@ button {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--logo-sec);
+  transition: var(--transition-duration-function);
 }
 .logo:hover,
 .logo:focus {
@@ -288,6 +289,7 @@ button {
   background-color: var(--social-btn-comand1);
   border-radius: 50px;
   fill: var(--social-btn-logo);
+  transition: var(--transition-duration-function);
 }
 .social-li:hover,
 .social-li:focus {
@@ -348,6 +350,7 @@ button {
   height: 88px;
   border: 1px solid currentColor;
   border-radius: 4px;
+  transition: var(--transition-duration-function);
 }
 .customer-icon {
   fill: currentColor;
@@ -399,6 +402,7 @@ button {
   background-color: rgba(255, 255, 255, 0.1);
   border-radius: 50px;
   fill: var(--social-btn-logo);
+  transition: var(--transition-duration-function);
 }
 .footer-soc-li:hover,
 .footer-soc-li:focus {
@@ -424,6 +428,7 @@ button {
   color: var(--text-many-button);
   cursor: pointer;
   padding: 12px 24px;
+  transition: var(--transition-duration-function);
 }
 .btn:hover,
 .btn:focus {
@@ -499,6 +504,7 @@ button {
 .card-link {
   display: block;
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08);
+  transition: var(--transition-duration-function);
 }
 .card-link:hover,
 .card-link:focus {
