@@ -458,6 +458,7 @@ button {
 }
 .card-link-img {
   position: relative;
+  overflow: hidden;
 }
 .overlay {
   color: var(--overlay-text);
@@ -467,8 +468,14 @@ button {
   top: 0;
   width: 100%;
   height: 100%;
+  transform: translate(0, 100%);
+  padding: 40px 32px;
+  line-height: 1.5;
 }
-
+.card-link:hover .overlay,
+.card-link:focus .overlay {
+  transform: translate(0, 0);
+}
 /*-------sectiom-many-ikon------*/
 .many-ikon-name {
   font-weight: 500;
